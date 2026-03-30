@@ -1,0 +1,84 @@
+{
+    "categories":[
+        {
+            "name": "Entrance_XK3190_DS8",
+            "tags": [
+                {"name": "deviceName_entranceWB1", "type": "string"},
+                {"name": "isActive_entranceWB1", "type": "string"},
+                {"name": "deviceID_entranceWB1", "type": "string"},
+                {"name": "comPort_entranceWB1", "type": "string"},
+                {"name": "baudrate_entranceWB1", "type": "string"},
+                {"name": "timeout_entranceWB1", "type": "string"},
+                {"name": "pollingInterval_entranceWB1", "type": "string"},
+                {"name": "gross_weight_WB1", "type": "string"},
+                {"name": "weight_capture_status1", "type": "string"}
+            ]
+        },
+        {
+            "name": "Exit_XK3190_DS8",
+            "tags": [
+                {"name": "deviceName_exitWB2", "type": "string"},
+                {"name": "isActive_exitWB2", "type": "string"},
+                {"name": "deviceID_exitWB2", "type": "string"},
+                {"name": "comPort_exitWB2", "type": "string"},
+                {"name": "baudrate_exitWB2", "type": "string"},
+                {"name": "timeout_exitWB2", "type": "string"},
+                {"name": "pollingInterval_exitWB2", "type": "string"},
+                {"name": "gross_weight_WB2", "type": "string"},
+                {"name": "weight_capture_status2", "type": "string"}
+            ]
+        },
+        {
+            "name": "Waveshare_Monitoring",
+            "tags": [
+                {"name": "irSens_01_entranceLB", "type": "string"},
+                {"name": "irSens_02_entranceLB", "type": "string"},
+                {"name": "irSens_03_entranceLB", "type": "string"},
+                {"name": "irSens_01_exitLB", "type": "string"},
+                {"name": "irSens_02_exitLB", "type": "string"},
+                {"name": "irSens_03_exitLB", "type": "string"},
+                {"name": "entranceLB_status", "type": "string"},
+                {"name": "exitLB_status", "type": "string"}
+            ]
+        },
+        {
+            "name": "Waveshare_Controlling",
+            "tags": [
+                {"name": "control_entranceLB", "type": "string"},
+                {"name": "control_exitLB", "type": "string"}
+            ]
+        },
+        {
+            "name": "Camera_Detection",
+            "tags": [
+                {"name": "driver_absence_status", "type": "string"},
+                {"name": "vehicle_alignment_status", "type": "string"}
+            ]
+        },
+        {
+            "name": "RFID Scanner",
+            "tags": [
+                {"name": "dataRFID_Entrance", "type": "string"},
+                {"name": "dataRFID_Exit", "type": "string"}
+            ]
+        },
+        {
+            "name": "KIOSK",
+            "tags": [
+                {"name": "kiosk_button_entrance", "type": "string"},
+                {"name": "kiosk_button_exit", "type": "string"},
+                {"name": "entrance_print_status", "type": "string"},
+                {"name": "exit_print_status", "type": "string"},
+                {"name": "cardData_entrance", "type": "string"},
+                {"name": "cardData_exit", "type": "string"},
+                {"name": "receiptData_1", "type": "string"},
+                {"name": "receiptData_2", "type": "string"},
+                {"name": "receiptData_3", "type": "string"},
+                {"name": "receiptData_4", "type": "string"},
+                {"name": "receiptData_5", "type": "string"},
+                {"name": "receiptData_6", "type": "string"}
+            ]
+        }
+
+    ]
+}
