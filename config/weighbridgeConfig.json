@@ -45,7 +45,13 @@
             "name": "Waveshare_Controlling",
             "tags": [
                 {"name": "control_entranceLB", "type": "string"},
-                {"name": "control_exitLB", "type": "string"}
+                {"name": "control_exitLB", "type": "string"},
+                {"name": "channel_3", "type": "string"},
+                {"name": "channel_4", "type": "string"},
+                {"name": "channel_5", "type": "string"},
+                {"name": "channel_6", "type": "string"},
+                {"name": "channel_7", "type": "string"},
+                {"name": "channel_8", "type": "string"}
             ]
         },
         {
@@ -56,10 +62,12 @@
             ]
         },
         {
-            "name": "RFID Scanner",
+            "name": "RFID_Scanner",
             "tags": [
                 {"name": "dataRFID_Entrance", "type": "string"},
-                {"name": "dataRFID_Exit", "type": "string"}
+                {"name": "dataRFID_Exit", "type": "string"},
+                {"name": "scan_status_rfid1", "type": "string"},
+                {"name": "scan_status_rfid2", "type": "string"}
             ]
         },
         {
@@ -67,8 +75,8 @@
             "tags": [
                 {"name": "kiosk_button_entrance", "type": "string"},
                 {"name": "kiosk_button_exit", "type": "string"},
-                {"name": "entrance_print_status", "type": "string"},
-                {"name": "exit_print_status", "type": "string"},
+                {"name": "print_status_entrance", "type": "string"},
+                {"name": "print_status_exit", "type": "string"},
                 {"name": "cardData_entrance", "type": "string"},
                 {"name": "cardData_exit", "type": "string"},
                 {"name": "receiptData_1", "type": "string"},
