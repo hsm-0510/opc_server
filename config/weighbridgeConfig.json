@@ -86,6 +86,27 @@
                 {"name": "receiptData_5", "type": "string"},
                 {"name": "receiptData_6", "type": "string"}
             ]
+        },
+        {
+            "name": "SAP_DATA",
+            "tags": [
+                {"name": "SAP_trailer_complete_status", "type": "string"},
+                {"name": "SAP_trailer_code", "type": "string"},
+                {"name": "SAP_ordered_quantity", "type": "string"},
+                {"name": "SAP_gross_quantity", "type": "string"},
+                {"name": "SAP_batch_start_time", "type": "string"},
+                {"name": "SAP_batch_end_time", "type": "string"},
+                {"name": "SAP_compartment_number", "type": "string"},
+                {"name": "SAP_compartment_name", "type": "string"},
+                {"name": "SAP_trailer_net_weight", "type": "string"},
+                {"name": "SAP_expected_net_weight", "type": "string"},
+                {"name": "SAP_material_density", "type": "string"},
+                {"name": "SAP_PREDICTED_CASE", "type": "string"},
+                {"name": "SAP_PROB_NORMAL", "type": "string"},
+                {"name": "SAP_PROB_THEFT", "type": "string"},
+                {"name": "SAP_PROB_DRIFT", "type": "string"},
+                {"name": "SAP_PROB_MISSING", "type": "string"}
+            ]
         }
 
     ]
