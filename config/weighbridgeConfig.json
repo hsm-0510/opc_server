@@ -44,10 +44,10 @@
         {
             "name": "Waveshare_Controlling",
             "tags": [
-                {"name": "control_entranceLB", "type": "string"},
-                {"name": "control_exitLB", "type": "string"},
-                {"name": "channel_3", "type": "string"},
-                {"name": "channel_4", "type": "string"},
+                {"name": "open_entranceLB", "type": "string"},
+                {"name": "close_entranceLB", "type": "string"},
+                {"name": "open_exitLB", "type": "string"},
+                {"name": "close_exitLB", "type": "string"},
                 {"name": "channel_5", "type": "string"},
                 {"name": "channel_6", "type": "string"},
                 {"name": "channel_7", "type": "string"},
@@ -57,14 +57,16 @@
         {
             "name": "Camera_Detection",
             "tags": [
-                {"name": "driver_absence_status_camera", "type": "string"},
-                {"name": "vehicle_alignment_status_camera", "type": "string"}
+                {"name": "driver_absence_status_camera_ent", "type": "string"},
+                {"name": "vehicle_alignment_status_camera_ent", "type": "string"},
+				{"name": "driver_absence_status_camera_ext", "type": "string"},
+                {"name": "vehicle_alignment_status_camera_ext", "type": "string"}
             ]
         },
         {
             "name": "RFID_Scanner",
             "tags": [
-                {"name": "dataRFID_Entrance", "type": "string"},
+                {"name": "dataRFID_Entrance", "type": "strsing"},
                 {"name": "dataRFID_Exit", "type": "string"},
                 {"name": "scan_status_rfid1", "type": "string"},
                 {"name": "scan_status_rfid2", "type": "string"}
