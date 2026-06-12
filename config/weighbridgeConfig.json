@@ -31,14 +31,14 @@
         {
             "name": "Waveshare_Monitoring",
             "tags": [
-                {"name": "irSens_01_entranceLB", "type": "string"},
-                {"name": "irSens_02_entranceLB", "type": "string"},
+                {"name": "irSens_01_02_entranceLB", "type": "string"},
                 {"name": "irSens_03_entranceLB", "type": "string"},
-                {"name": "irSens_01_exitLB", "type": "string"},
-                {"name": "irSens_02_exitLB", "type": "string"},
+                {"name": "irSens_01_02_exitLB", "type": "string"},
                 {"name": "irSens_03_exitLB", "type": "string"},
-                {"name": "entranceLB_status", "type": "string"},
-                {"name": "exitLB_status", "type": "string"}
+                {"name": "entranceLB_open_status", "type": "string"},
+                {"name": "entranceLB_close_status", "type": "string"},
+                {"name": "exitLB_open_status", "type": "string"},
+                {"name": "exitLB_close_status", "type": "string"}
             ]
         },
         {
@@ -81,12 +81,26 @@
                 {"name": "kiosk_print_control_exit", "type": "string"},
                 {"name": "cardData_entrance", "type": "string"},
                 {"name": "cardData_exit", "type": "string"},
-                {"name": "receiptData_1", "type": "string"},
-                {"name": "receiptData_2", "type": "string"},
-                {"name": "receiptData_3", "type": "string"},
-                {"name": "receiptData_4", "type": "string"},
-                {"name": "receiptData_5", "type": "string"},
-                {"name": "receiptData_6", "type": "string"}
+                {"name": "receiptData_1_ent", "type": "string"},
+                {"name": "receiptData_2_ent", "type": "string"},
+                {"name": "receiptData_3_ent", "type": "string"},
+                {"name": "receiptData_4_ent", "type": "string"},
+                {"name": "receiptData_5_ent", "type": "string"},
+                {"name": "receiptData_6_ent", "type": "string"},
+                {"name": "receiptData_7_ent", "type": "string"},
+                {"name": "receiptData_8_ent", "type": "string"},
+                {"name": "receiptData_9_ent", "type": "string"},
+                {"name": "receiptData_10_ent", "type": "string"},
+				{"name": "receiptData_1_ext", "type": "string"},
+                {"name": "receiptData_2_ext", "type": "string"},
+                {"name": "receiptData_3_ext", "type": "string"},
+                {"name": "receiptData_4_ext", "type": "string"},
+                {"name": "receiptData_5_ext", "type": "string"},
+                {"name": "receiptData_6_ext", "type": "string"},
+                {"name": "receiptData_7_ext", "type": "string"},
+                {"name": "receiptData_8_ext", "type": "string"},
+                {"name": "receiptData_9_ext", "type": "string"},
+                {"name": "receiptData_10_ext", "type": "string"}
             ]
         },
         {
